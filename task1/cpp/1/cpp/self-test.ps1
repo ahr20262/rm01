@@ -15,7 +15,7 @@ chcp 65001 > $null
 $cases = @(
     @{ No = 1; In = "h`n";      Expect = @("H") },
     @{ No = 2; In = "123`n23`n"; Expect = @("有多少饮料", "有多少人", "每人有5.348", "一共有46杯") },
-    @{ No = 3; In = "`n";        Expect = @(); Pending = $true },   # 占位文件，待补全源码
+    @{ No = 3; In = "3`n5`n";      Expect = @("8") },
     @{ No = 4; In = "12`n";      Expect = @("有多少人", "要买120") },
     @{ No = 5; In = "3`n4`n5`n"; Expect = @("a, b, c为", "面积为6.0") }
 )
