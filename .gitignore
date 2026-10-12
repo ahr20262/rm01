@@ -1,0 +1,9 @@
+# 忽略编译中间产物
+build/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
+.vs/
