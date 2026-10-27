@@ -22,7 +22,10 @@ rm01/
     │   └── screenshots/                # 环境配置截图
     │       ├── 微信图片_20260928001244_1_2.jpg
     │       ├── 微信图片_20260928002409_2_2.jpg
-    │       └── ROS2-hello-world-node.jpg   # ROS2 节点编译运行验证
+    │       ├── ROS2-topic-pubsub.jpg       # 任务五：话题发布/订阅
+    │       ├── ROS2-service-fib-demo.jpg   # 任务五：服务（斐波那契）
+    │       ├── ROS2-action-sum-demo.jpg    # 任务五：动作（累加求和）
+    │       └── ROS2-hello-world-node.jpg   # 任务五：自定义节点编译运行
     └── cpp/                            # C++ 部分
         ├── 1/                          # 入门一：C++ 基础输入输出练习
         │   ├── README.md               # 入门一说明：文件清单、编译运行、验证结果
